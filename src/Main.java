@@ -7,11 +7,11 @@ public class Main {
         Sillas miSilla= new Sillas("SillitaMansa",3200.0,99,false);
         Notebook miNotebook =new Notebook("LG PRO MAX",3220.00,2,"LG",400.00);
         Impresora miImpresora=new Impresora("LG HP426",999.00,10,"LG",32);
-       ArrayList<Productos> misProductos=new ArrayList<>();
-       misProductos.add(miEscritorio);
-       misProductos.add(miSilla);
-       misProductos.add(miImpresora);
-       misProductos.add(miNotebook);
+        ArrayList<Productos> misProductos=new ArrayList<>();
+        misProductos.add(miEscritorio);
+        misProductos.add(miSilla);
+        misProductos.add(miImpresora);
+        misProductos.add(miNotebook);
 
         for (Productos miProdu: misProductos) {
             if (miProdu instanceof Escritorios){

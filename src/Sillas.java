@@ -22,6 +22,7 @@ public class Sillas extends Productos implements  iOfertasEspeciales{
     }
     @Override
     public Double aplicarDescuento(int porcentaje) {
+       //        Se utiliza el tipo de dato INT para que no genere inconvenientes a la hora de dividir por un double
         Double precio=getPrecio();
         return (precio - precio/100.00*porcentaje);
 
